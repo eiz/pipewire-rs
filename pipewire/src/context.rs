@@ -38,7 +38,7 @@ impl<T: AsRef<LoopRef> + Clone> Context<T> {
         Self::new_internal(loop_, Some(properties))
     }
 
-    fn as_ptr(&self) -> *mut pw_sys::pw_context {
+    pub fn as_ptr(&self) -> *mut pw_sys::pw_context {
         self.ptr.as_ptr()
     }
 
