@@ -16,7 +16,7 @@ keywords = ["ffi", "pipewire", "multimedia", "audio", "video"]
 [dependencies]
 
 [build-dependencies]
-bindgen = { version = "0.64", default-features = false }
+bindgen = { version = "0.65" }
 cc = "1.0"
 system-deps = "6"
 
